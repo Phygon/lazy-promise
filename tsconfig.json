@@ -1,0 +1,12 @@
+{
+    "extends": ["@tsconfig/node26/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["src/**/*.spec.ts"]
+}
